@@ -18,3 +18,5 @@
 !/docs/
 /docs/*
 !/docs/*.md
+!/README.md
+!/LICENSE
