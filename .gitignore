@@ -1,0 +1,20 @@
+# Explicit publication allowlist. Existing local files stay on disk.
+/*
+!/.gitignore
+!/src/
+/src/*
+!/src/bridge.cpp
+!/src/version.rc
+!/scripts/
+/scripts/*
+!/scripts/build_windows.py
+!/scripts/generate_rule.py
+!/output/
+/output/*
+!/output/CDMaterialBridge.asi
+
+# Keep original root notes private; publish technical documentation in docs/.
+/*.md
+!/docs/
+/docs/*
+!/docs/*.md
